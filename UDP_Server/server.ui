@@ -17,7 +17,7 @@
    <widget class="QPushButton" name="STATE">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>211</x>
       <y>90</y>
       <width>141</width>
       <height>25</height>
@@ -56,7 +56,7 @@
      <bool>false</bool>
     </property>
     <property name="readOnly">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QSpinBox" name="frequency">
@@ -114,6 +114,58 @@
      <string>Frequency:</string>
     </property>
    </widget>
+   <widget class="QLabel" name="prep_block">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>90</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(251, 232, 123);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string>подготовка данных!</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="oneFrame">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>90</y>
+      <width>51</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>one</string>
+    </property>
+   </widget>
+   <zorder>oneFrame</zorder>
+   <zorder>STATE</zorder>
+   <zorder>IP_addrass</zorder>
+   <zorder>PORT</zorder>
+   <zorder>frequency</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>prep_block</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
